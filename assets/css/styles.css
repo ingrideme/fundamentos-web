@@ -1,0 +1,47 @@
+body {
+background-color: #000000;
+background-image: url("../img/background.png");
+font-family: 'Open Sans', sans-serif;
+color: white;
+font-weight: 600;
+font-size: 20x;
+}
+
+.titulo {
+    text-align: center;
+    color: #e57373;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+
+.br-50 {
+    border-radius: 50%;
+}
+
+.img {
+    height: 300px;
+    width: 300px;
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.card {
+    flex-flow: nowrap;
+}
+
+
+.icons li {
+    display: inline;
+    padding: 15px;
+   
+ }
+
+ .icons  {
+    text-align: right;
+ }

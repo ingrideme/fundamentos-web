@@ -31,14 +31,22 @@
      <div class="formulario">
         <h3 class="tituloform">Formulário</h3>
             <label class="texto" for="txtNome">Nome:</label><br>
-            <input class="input" type="text"><br>
+            <input class="input" id="nome" type="text" onkeyup='validaNome()' ><br>
+            <div id='txtNome'></div>
             <label  class="texto" for="txtEmail">Email:</label><br>
-            <input  class="input" type="text"><br>
+            <input  class="input" id="email" type="email" onkeyup='validaMensagem()'><br>
+            <div id='txtEmail'></div>
+
             <br>
-            <textarea class="input" name="message" rows="10" cols="30">Digite sua mensagem aqui
+            <textarea name="mensagem" id="mensagem" cols="30" rows="5" onkeyup="validaMensagem()"></textarea>
             </textarea>
-             <button class="btn-grad">Enviar!</button>  
-          </form>  
+            <div id='txtMensagem'></div>
+
+            <button class="btn-grad">Enviar!</button>  
+
+        </form>  
     </div>
+
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
